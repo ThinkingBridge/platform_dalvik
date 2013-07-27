@@ -34,7 +34,11 @@ progdir=`pwd`
 prog="${progdir}"/`basename "${prog}"`
 
 export JAVA="java"
+<<<<<<< HEAD
 export JAVAC="javac -target 1.5 -source 1.5"
+=======
+export JAVAC="javac -source 1.5 -target 1.5"
+>>>>>>> android-4.3_r2.1
 export RUN="${progdir}/etc/push-and-run-test-jar"
 
 info="info.txt"
